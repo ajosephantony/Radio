@@ -1,0 +1,173 @@
+ %% PLEASE DO NOT MODIFY OR DELETE THIS FILE! %% 
+ %% This file contains information about the installation of an application. %% 
+ %% It will be used to automatically remove all application components from your computer if you choose to do so. %% 
+
+
+NOTE: Beginning of the bootstrapper section
+
+CONFIG: Title: "Angelo Province"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "SharedDLLs"
+
+ACTION: SystemFile: "D:\WINNT\system32\VB6STKIT.DLL"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "D:\WINNT\system32\COMCAT.DLL"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "D:\WINNT\system32\stdole2.tlb"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "D:\WINNT\system32\asycfilt.dll"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "D:\WINNT\system32\olepro32.dll"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "D:\WINNT\system32\oleaut32.dll"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "D:\WINNT\system32\msvbvm60.dll"
+(File currently on disk was already up to date)
+
+ACTION: DllSelfRegister: "D:\WINNT\SYSTEM32\COMCAT.DLL"
+
+ACTION: TLBRegister: "D:\WINNT\SYSTEM32\stdole2.tlb"
+
+ACTION: DllSelfRegister: "D:\WINNT\SYSTEM32\olepro32.dll"
+
+ACTION: DllSelfRegister: "D:\WINNT\SYSTEM32\oleaut32.dll"
+
+ACTION: DllSelfRegister: "D:\WINNT\SYSTEM32\msvbvm60.dll"
+
+NOTE: End of the bootstrapper section
+
+NOTE: Now spawning the main Setup program 'Setup1.exe'....
+
+ACTION: CreateDir: "c:\angelo_province"
+
+ACTION: SharedFile: "c:\angelo_province\Religious.rpt"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "c:\angelo_province\RELATION.RPT"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "c:\angelo_province\prov_yearly_rpt.rpt"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "c:\angelo_province\PERSONEL.RPT"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "c:\angelo_province\permit_full_rpt.rpt"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "c:\angelo_province\land_report_full.rpt"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "c:\angelo_province\land_report.rpt"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "c:\angelo_province\HomeHoliday.rpt"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "c:\angelo_province\DOB1.RPT"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "c:\angelo_province\DOB.RPT"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "c:\angelo_province\CASE_RPT.RPT"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "c:\angelo_province\Angelo.mdb"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "D:\Program Files\Common Files\designer\MSDERUN.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "D:\WINNT\System32\msstdfmt.dll"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "D:\WINNT\System32\MSDBRPTR.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "D:\WINNT\System32\MSCOMCT2.OCX"
+(File currently on disk was already up to date)
+
+ACTION: SharedFile: "D:\WINNT\System32\Crystl32.OCX"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "D:\WINNT\System32\MSDATGRD.OCX"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "D:\WINNT\System32\DBLIST32.OCX"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "D:\WINNT\System32\DBGRID32.OCX"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "D:\WINNT\System32\MSCHRT20.OCX"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "D:\WINNT\System32\MSADODC.OCX"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "D:\WINNT\System32\MSFLXGRD.OCX"
+(File currently on disk was already up to date)
+
+ACTION: SharedFile: "D:\WINNT\System32\MSMASK32.OCX"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "D:\WINNT\System32\MSBIND.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "D:\WINNT\System32\msado20.tlb"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "D:\WINNT\System32\dao360.dll"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "c:\angelo_province\AngeloProvince.exe"
+(File was not found or was an older version -- new file copied)
+
+ACTION: DllSelfRegister: "D:\Program Files\Common Files\designer\MSDERUN.DLL"
+
+ACTION: DllSelfRegister: "D:\WINNT\System32\msstdfmt.dll"
+
+ACTION: DllSelfRegister: "D:\WINNT\System32\MSDBRPTR.DLL"
+
+ACTION: DllSelfRegister: "D:\WINNT\System32\MSCOMCT2.OCX"
+
+ACTION: DllSelfRegister: "D:\WINNT\System32\Crystl32.OCX"
+
+ACTION: DllSelfRegister: "D:\WINNT\System32\MSDATGRD.OCX"
+
+ACTION: DllSelfRegister: "D:\WINNT\System32\DBLIST32.OCX"
+
+ACTION: DllSelfRegister: "D:\WINNT\System32\DBGRID32.OCX"
+
+ACTION: DllSelfRegister: "D:\WINNT\System32\MSCHRT20.OCX"
+
+ACTION: DllSelfRegister: "D:\WINNT\System32\MSADODC.OCX"
+
+ACTION: DllSelfRegister: "D:\WINNT\System32\MSFLXGRD.OCX"
+
+ACTION: DllSelfRegister: "D:\WINNT\System32\MSMASK32.OCX"
+
+ACTION: DllSelfRegister: "D:\WINNT\System32\MSBIND.DLL"
+
+*** ERROR: No entrypoint for DllRegisterServer() was found in 'D:\WINNT\System32\msado20.tlb'
+*** DURING THIS ACTION: DllSelfRegister: "D:\WINNT\System32\msado20.tlb"
+
+*** ERROR: An error occurred while registering the file 'D:\WINNT\System32\msado20.tlb'
+*** ERROR: (User Responded with 'Ignore')
+*** DURING THIS ACTION: DllSelfRegister: "D:\WINNT\System32\msado20.tlb"
+
+ACTION: DllSelfRegister: "D:\WINNT\System32\dao360.dll"
+
+ACTION: ShellLink: "Angelo Province", "Angelo Province"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "App Paths\AngeloProvince.exe"
+
+ACTION: RegValue: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\AngeloProvince.exe", ""
+
