@@ -1,1 +1,2 @@
 document
+line 2 of document
